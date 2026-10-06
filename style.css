@@ -1,0 +1,127 @@
+/* Basic page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(241, 243, 240);
+    color: rgb(45, 45, 45);
+}
+
+
+/* Header */
+
+header {
+    background-color: rgb(130, 155, 227);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+
+/* Navigation */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main content */
+
+main {
+    background-color: white;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+
+/* Sections */
+
+section {
+    background-color: rgb(250, 245, 245);
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 2px solid rgb(230, 200, 200);
+}
+
+
+/* Headings */
+
+section h2 {
+    color: rgb(75, 95, 160);
+}
+
+
+/* Lists */
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* Images */
+
+img {
+    width: 220px;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+
+/* Links */
+
+a {
+    color: rgb(70, 100, 180);
+}
+
+a:hover {
+    color: rgb(200, 80, 80);
+}
+
+
+/* Form */
+
+input,
+select,
+textarea {
+    padding: 8px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Button */
+
+button {
+    background-color: rgb(130, 155, 227);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(90, 120, 190);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(129, 181, 235);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
